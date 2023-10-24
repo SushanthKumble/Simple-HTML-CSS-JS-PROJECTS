@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #dacdcd;
+
+}
+.container{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  
+  margin: 2px 9px;
+}
+.button{
+  width: max(70px,4vw);
+  font-size:1.3rem;
+  padding: 11px 5px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.inputfield{
+  border-radius: 10px;
+    margin-bottom: 12px;
+    width: 270px;
+    padding: 12px 5px;
+    border: 2px solid black;
+}
